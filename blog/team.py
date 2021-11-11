@@ -35,6 +35,7 @@ def teamset():
     pop_list = (list(set(master) - set(new_list)))
 
 
+    v = set(['Apurba', 'Sowgat', 'Himel'])
     w = set(['Ehsan', 'Mortuza'])
     x = set(['Apurba', 'Hasnat'])
     y= set(['Anupam', 'Sowgat', 'Mortuza'])
@@ -49,7 +50,8 @@ def teamset():
     A = con['TeamA']
     B = con['TeamB']
 
-    if x.issubset(A) or x.issubset(B) or y.issubset(A) or y.issubset(B) or \
+    if v.issubset(A) or v.issubset(B) or w.issubset(A) or w.issubset(B) or \
+        x.issubset(A) or x.issubset(B) or y.issubset(A) or y.issubset(B) or \
         z.issubset(A) or z.issubset(B):
         context = {}
     else:
