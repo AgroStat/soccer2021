@@ -1,4 +1,5 @@
 import random
+
 def teamset():
 
     list_1 = ['Sowgat', 'Hasnat']
@@ -37,7 +38,7 @@ def teamset():
     w = set(['Ehsan', 'Mortuza'])
     x = set(['Apurba', 'Hasnat'])
     y= set(['Anupam', 'Sowgat', 'Mortuza'])
-    # z= set(['Apurba', 'Sowgat'])
+    z= set(['Priom', 'Ehsan', 'Anupam'])
 
     
     con = {
@@ -48,8 +49,8 @@ def teamset():
     A = con['TeamA']
     B = con['TeamB']
 
-    if x.issubset(A) or x.issubset(B) or y.issubset(A) or y.issubset(B) :
-        # z.issubset(A) or z.issubset(B):
+    if x.issubset(A) or x.issubset(B) or y.issubset(A) or y.issubset(B) or \
+        z.issubset(A) or z.issubset(B):
         context = {}
     else:
         context = con
