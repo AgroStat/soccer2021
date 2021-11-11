@@ -13,18 +13,15 @@
       top: 30px;
       left: 45%;
       color: #fff;
-      font-size: 3rem;
-      font-weight: 700;
       z-index: 2;
       letter-spacing: .2em; }
       @media (max-width: 991.98px) {
         .team-vs .score {
-          font-size: 2rem;
           left: 45%; } }
     .team-vs h3 {
-      font-size: 20px;
+
       color: #fff;
-      font-weight: 900;
+
       margin-bottom: 20px; }
     .team-vs ul {
       color: #fff; }
