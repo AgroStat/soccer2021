@@ -13,7 +13,7 @@
       top: 30px;
       left: 45%;
       color: #fff;
-      font-size: 1rem;
+      font-size: 3rem;
       font-weight: 700;
       z-index: 2;
       letter-spacing: .2em; }
@@ -48,9 +48,9 @@
         top: 0;
         width: 200%;
         height: 200%;
-        -webkit-transform: skew(-10deg);
-        -ms-transform: skew(-10deg);
-        transform: skew(-10deg); }
+        -webkit-transform: skew(-5deg);
+        -ms-transform: skew(-5deg);
+        transform: skew(-5deg); }
 
 
 
