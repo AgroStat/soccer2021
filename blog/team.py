@@ -15,7 +15,6 @@ def teamset():
     list_11 = ['Badhon', 'Huzzatul']
 
 
-
     v_list = random.sample(list_5, 1)
     w_list = random.sample(list_1, 2)
     x_list = random.sample(list_2, 1)
@@ -35,6 +34,7 @@ def teamset():
     pop_list = (list(set(master) - set(new_list)))
 
 
+    u = set(['Asif', 'Nazmul', 'Himel'])
     v = set(['Apurba', 'Sowgat', 'Himel'])
     w = set(['Ehsan', 'Mortuza'])
     x = set(['Apurba', 'Hasnat'])
@@ -52,7 +52,7 @@ def teamset():
 
     if v.issubset(A) or v.issubset(B) or w.issubset(A) or w.issubset(B) or \
         x.issubset(A) or x.issubset(B) or y.issubset(A) or y.issubset(B) or \
-        z.issubset(A) or z.issubset(B):
+        z.issubset(A) or z.issubset(B) or u.issubset(A) or u.issubset(B):
         context = {}
     else:
         context = con
