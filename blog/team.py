@@ -38,7 +38,7 @@ def teamset():
     v = set(['Ehsan', 'Mortuza', 'Sharif'])
     w = set(['Apurba', 'Sowgat', 'Joydip'])
     x = set(['Apurba', 'Hasnat', 'Joydip'])
-    # y= set(['Anupam', 'Sowgat', 'Mortuza'])
+    y= set(['Anupam', 'Priom', 'Ehsan'])
     z= set(['Priom', 'Ehsan', 'Mortuza'])
 
     
@@ -50,9 +50,9 @@ def teamset():
     A = con['TeamA']
     B = con['TeamB']
 
-    if w.issubset(A) or w.issubset(B) or \
-        x.issubset(A) or x.issubset(B) or v.issubset(A) or v.issubset(B) or \
-        z.issubset(A) or z.issubset(B) or u.issubset(A) or u.issubset(B):
+    if w.issubset(A) or w.issubset(B) or x.issubset(A) or x.issubset(B) or \
+        y.issubset(A) or y.issubset(B) or u.issubset(A) or u.issubset(B) or \
+        z.issubset(A) or z.issubset(B) or v.issubset(A) or v.issubset(B):
         context = {}
     else:
         context = con
