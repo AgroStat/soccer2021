@@ -3,14 +3,14 @@ import random
 def teamset():
 
     list_1 = ['Sowgat', 'Hasnat']
-    list_2 = ['Joydip', 'Mortuza']
+    list_2 = ['Joydip', 'Apurba']
     list_3 = ['Asif','Rashed']
     list_4 = ['Himel', 'Emon']
     list_5 = ['Shahriar R', 'Remon']
     list_6 = ['Shahriar H', 'Riyad']
     list_7 = ['Saif', 'Mostafiz']
     list_8 = ['Priom', 'Nazmul']
-    list_9 = ['Anupam', 'Apurba']
+    list_9 = ['Anupam', 'Mortuza']
     list_10 = ['Ehsan', 'Sharif']
     list_11 = ['Badhon', 'Huzzatul']
 
@@ -35,9 +35,9 @@ def teamset():
 
 
     # u = set(['Asif', 'Nazmul', 'Himel'])
-    v = set(['Ehsan', 'Mortuza', 'Priom'])
+    # v = set(['Ehsan', 'Mortuza', 'Priom'])
     w = set(['Apurba', 'Sowgat', 'Himel'])
-    x = set(['Apurba', 'Hasnat', 'Joydip'])
+    x = set(['Apurba', 'Hasnat', 'Himel'])
     y= set(['Anupam', 'Priom', 'Ehsan'])
     z= set(['Priom', 'Ehsan', 'Mortuza'])
 
@@ -51,8 +51,7 @@ def teamset():
     B = con['TeamB']
 
     if w.issubset(A) or w.issubset(B) or x.issubset(A) or x.issubset(B) or \
-        y.issubset(A) or y.issubset(B) or \
-        z.issubset(A) or z.issubset(B) or v.issubset(A) or v.issubset(B):
+        y.issubset(A) or y.issubset(B) or z.issubset(A) or z.issubset(B):
         context = {}
     else:
         context = con
