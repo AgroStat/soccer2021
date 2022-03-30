@@ -38,7 +38,6 @@ jobs:
         heroku_app_name: ""
         heroku_email: "gdde007@gmail.com"
         justlogin: true
-    - name: remote
       run: |
         heroku git:remote -a "soccer2021"
         git push heroku main        
