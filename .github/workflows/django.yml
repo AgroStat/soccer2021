@@ -47,9 +47,9 @@ jobs:
     - name: Add Heroku remote
       run: heroku git:remote --app $HEROKU_APP_NAME
       env:
-        HEROKU_APP_NAME: ${{ secrets.HEROKU_APP_NAME }}
+        HEROKU_APP_NAME: "soccer2021"
     - name: Push to Heroku
-      run: git push heroku master      
+      run: git push heroku main      
 
         
 
