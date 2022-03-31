@@ -38,7 +38,7 @@ def teamset():
     # v = set(['Ehsan', 'Mortuza', 'Priom'])
     w = set(['Apurba', 'Sowgat', 'Rakib'])
     x = set(['Apurba', 'Hasnat', 'Sowgat'])
-    y= set(['Anupam', 'Priom', 'Ehsan'])
+    y= set(['Anupam', 'Mortuza', 'Ehsan'])
     z= set(['Priom', 'Ehsan', 'Mortuza'])
 
     
