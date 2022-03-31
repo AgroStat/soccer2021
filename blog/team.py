@@ -3,7 +3,7 @@ import random
 def teamset():
 
     list_1 = ['Sowgat', 'Hasnat']
-    list_2 = ['Joydip', 'Apurba']
+    list_2 = ['Rakib', 'Apurba']
     list_3 = ['Asif','Rashed']
     list_4 = ['Himel', 'Emon']
     list_5 = ['Shahriar R', 'Remon']
