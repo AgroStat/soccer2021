@@ -49,9 +49,9 @@ jobs:
     - name: Deploy to Heroku
       uses: akhileshns/heroku-deploy@v3.12.12
       with:
-         heroku_api_key: 'c9cfff6d-5292-46d8-ac3a-57cc01a13bc5'
-         heroku_app_name: 'soccer2021'
-         heroku_email: 'gdde007@gmail.com'
+         heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
+         heroku_app_name: ${{ secrets.HEROKU_APP_NAME }}
+         heroku_email: ${{ secrets.HEROKU_EMAIL }}
 
       
 
