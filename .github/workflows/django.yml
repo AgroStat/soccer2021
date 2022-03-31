@@ -47,7 +47,6 @@ jobs:
       run: |
         python manage.py test
     - name: Deploy to Heroku
-      if: github.ref == 'refs/heads/main' && job.status == 'success'
       uses: akhileshns/heroku-deploy@v3.12.12
       with:
          heroku_api_key: 'c9cfff6d-5292-46d8-ac3a-57cc01a13bc5'
