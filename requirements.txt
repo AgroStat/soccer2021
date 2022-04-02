@@ -3,4 +3,3 @@ django-crispy-forms
 gunicorn
 Pillow
 requests
-djangorestframework
