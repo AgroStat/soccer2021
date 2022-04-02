@@ -46,9 +46,6 @@ jobs:
     - name: Django Testing
       run: |
         python manage.py test
-    - name: Pre Deploy to Heroku
-      run: |
-        git pull heroku main
     - name: Deploy to Heroku
       uses: akhileshns/heroku-deploy@v3.12.12
       with:
